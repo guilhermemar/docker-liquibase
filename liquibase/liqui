@@ -1,0 +1,3 @@
+#! /bin/bash
+
+liquibase --changeLogFile=$LIQUIBASE_CHANGELOG_FILE --username=$LIQUIBASE_USERNAME --password=$LIQUIBASE_PASSWORD --url=$LIQUIBASE_URL $@
